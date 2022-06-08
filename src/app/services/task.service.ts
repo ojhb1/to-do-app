@@ -5,11 +5,7 @@ import { map } from 'rxjs/operators';
 
 import { Task } from '../Task';
 
-@Injectable()({
-  providedIn: 'root'
-
-});
- 
+@Injectable()
 export class TaskService {
  apiRest = 'https://localhost:3000/api/tareas';
 
